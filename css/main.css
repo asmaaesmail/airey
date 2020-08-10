@@ -1084,7 +1084,12 @@ p.hell2 span {
 	font-size: 25px;
 	color: #fff
 }
-
+.flexcontact {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
 .Pcontact p {
 	padding: 20px;
 	width: 150px;
@@ -1093,6 +1098,7 @@ p.hell2 span {
 	color: #fff;
 	font-weight: bold;
 	text-align: center;
+	margin-left: 10px
 }
 
 .star {
@@ -1601,7 +1607,27 @@ p.hell2 span {
 	opacity: 0;
 }
 
+.flexcontact{
+	display: flex;
+	align-items: center;
 
+}
+.contactss {
+    color: #00ccff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+a.contactss {
+    color: #00ccff;
+}
+.taqeem {
+    color: #fff;
+    font-size: 20px;
+}
+.taqeem span {
+    color: #ea6b60;
+}
 /*//////////////////////// section2 ///////////////////////////////////*/
 
 .elementor-40 .elementor-element.elementor-element-b351f94:not(.elementor-motion-effects-element-type-background),
@@ -2616,10 +2642,43 @@ p.hell2 span {
     font-weight: bold;
     color: #fff;
 }
+.Pcontact p {
+    padding: 12px;
+    width: 130px;
+    font-size: 14px;
+}
+.flexcontact {
+
+    font-size: 14px;
+    font-weight: bold;
+}
+.contactss {    
+    font-size: 14px;
+   
+}
+.flexstar div {
+    margin-left: 10px;
+}
+.flexstar div {
+    margin-left: 10px;
+}
+.taqeem {
+    color: #fff;
+    font-size: 13px;
+}
 	/************end header *******************/
 	/******sec2****************************/
 	.elementor-element.elementor-element-b351f94 {
 		padding: 60px 0px 60px 0px;
+	}
+	.elementor-element.elementor-element-b351f94:not(.elementor-motion-effects-element-type-background), .elementor-40 .elementor-element.elementor-element-b351f94>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+		
+		background-position: -98px 11%;
+	}
+	.eight-section-title p {
+		font-size: 14px;
+		line-height: 1.647;
+		padding: 0 14px;
 	}
 }
 
