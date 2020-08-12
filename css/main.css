@@ -50,9 +50,7 @@ body {
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 1.5;
-	/*  height: 100%; */
 	color: #333333;
-	background: #F9F9F9;
 	direction: rtl !important;
 	overflow-x: hidden
 }
@@ -169,7 +167,9 @@ li {
 	float: right;
 }
 
-
+.alignecenter{
+	text-align: center
+}
 /********************************navbar**********************/
 
 .grid.margin::after,
@@ -1102,7 +1102,10 @@ p.hell2 span {
 	color: #fff;
 	font-size: 20px;
 }
-
+.Pcontact p:hover {
+    background-color: #f17172;
+    border-radius: 29px 0 0 0;
+}
 .Pcontact p {
 	padding: 20px;
 	width: 150px;
@@ -1673,7 +1676,10 @@ a.contactss {
 .elementor-section {
 	position: relative;
 }
-
+span.eg-title-tag {
+    font-weight: bold;
+    color: #36417e;
+}
 
 /*---------------------------------------------------- */
 
@@ -1922,6 +1928,7 @@ a.contactss {
 
 .elementor-element.elementor-element-ce69487 .feature-eight-section .eight-feature-content {
 	padding: 70px 0px 0px 0px;
+/* 	overflow: hidden */
 }
 
 
@@ -2246,7 +2253,98 @@ section#eight-service {
 
 
 /*////////////////////////////end section 3//////////////////////*/
-
+/* //////////////////////////////secction 4 ////////////////*/
+.eg-fun-fact-section .fun-fact-counter:after {
+	top: 0;
+	bottom: 0;
+	right: 225px;
+	width: 1px;
+	content: '';
+	height: 394px;
+	margin: 0 auto;
+	position: absolute;
+	background-color: #dde0ee;
+	 
+}
+  .eg-fun-fact-section .fun-fact-counter:before {
+	position: absolute;
+	content: '';
+	width: 90%;
+	height: 1px;
+	top: 194px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	background-color: #dde0ee; }
+  .eg-fun-fact-section .fun-fact-counter .eg-counter-number {
+	width: 50%;
+	float: left;
+	padding: 25px 0px 30px; 
+}
+	.eg-fun-fact-section  .fun-fact-counter .eg-counter-number .odometer {
+	  font-size: 50px;
+	  font-family: "Poppins";
+	  font-weight: 600; }
+	.eg-fun-fact-section .fun-fact-counter .eg-counter-number .odometer-formatting-mark {
+	  display: none; }
+	.eg-fun-fact-section .fun-fact-counter .eg-counter-number p {
+	  font-size: 26px;
+	  max-width: 130px;
+	  margin: 0 auto;
+	  line-height: 1.231; }
+	.eg-fun-fact-section .fun-fact-counter .eg-counter-number strong {
+	  top: 8px;
+	  line-height: 1;
+	  font-size: 50px;
+	  font-weight: 600;
+	  position: relative;
+	 }
+	 section.ei-appdownload-section.eg-fun-fact-section.downloadsec.position-relative {
+		background-image: none;
+	}
+	.ei-app-mockup-img {
+		position: relative;
+	}
+	.appomlaa .ei-app-mockup-img img{
+		position: absolute;
+		left: -110px;
+		top: 0
+	}
+	.appomlaa .ei-app-mockup-img img {
+		height: 445px;
+		position: absolute;
+		left: -110px;
+		top: 60px;
+		object-fit: contain;
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(1) span{
+		color: #ea6b60
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(1) strong{
+		color: #ea6b60
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(2) span{
+		color: #00ccff
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(2) strong{
+		color: #00ccff
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(3) span{
+		color: #00ccff
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(3) strong{
+		color: #00ccff
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(4) span{
+		color: #36417e
+	}
+	.eg-counter-number.pera-content.text-center:nth-child(4) strong{
+		color: #36417e
+	}
+/* ///////////////end section 4////////////////////////////*/
 
 /*//////////////////////////// section 6 /////////////////////////*/
 
@@ -2258,11 +2356,13 @@ section#eight-service {
 
 
 /*----------------------------------------------------*/
-
 .ei-appdownload-section {
-	padding: 55px 0px 0px;
-	z-index: 1;
-	overflow: hidden
+    padding: 50px 0px 50px 0;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url(../img/Assest14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ei-appdownload-section .ei-download-btn .download-icon {
@@ -2398,16 +2498,167 @@ section#eight-service {
 
 /*////////////////////////////end section 6 /////////////////////////*/
 
+/* ////////////////////////////////////////////// section 7///////////////////////// */
 
+.block{
+	display: block
+}
+.projects {
+    padding: 60px 0;
+    background-image: url(../img/asset30.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 54% 138%;
+}
+.projects .row{
+	display: flex;
+	align-items: center
+}
+.fleximgp img {
+    width: 80px;
+    margin-left: 6px;
+}
+.fleximgp div p:nth-child(1){
+font-weight: bold
+}
+.fleximgp div p:nth-child(2) {
+    font-size: 16px;
+}
+/* slider*/
+
+.cascade-slider_container {
+    position: relative;
+    height: 230px;
+    width: auto;
+    margin: 0 auto;
+}
+.cascade-slider_item.now img {
+    height: 190px;
+}
+.cascade-slider_item.next img {
+    height: 205px;
+}
+.cascade-slider_item.prev img {
+    height: 205px;
+}
+.cascade-slider_arrow-left {
+    left: 41%;
+    color: #1c7491;
+    font-size: 27px
+}
+.cascade-slider_arrow-right {
+    right: 41%;
+    color:  #1c7491;
+    font-size: 27px
+}
+.cascade-slider_arrow {
+   top: unset;
+  bottom: 0
+   
+}
+img {
+    background-color: inherit;
+    padding: 5px;
+}
+
+.fleximgp {
+    display: flex;
+    align-items: center;
+}
+.fleximgp {
+    padding: 3px 8px;
+}
+/* ///////////////////////////////////////// end section 7///////////////////////// */
 /* ////////////////////////////////////////////// section 8///////////////////////// */
 
 .messg {
     background-image: url(../img/Assest17.png);
-    background-size: 100% 184%;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	padding: 20px 0
+}
+.messg .row{
+	display: flex;
+	align-items: center;
+	
+}
+.messg input {
+    width: 90%;
+    padding: 22px 12px 22px 160px;
+    margin: auto;
+    border-radius: 0 35px 35px;
+}
+.messg button{
+	padding: 15px;
+    width: 150px;
+    background-color: #00ccff;
+    border-radius: 0 29px 29px 29px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 10px;
+    position: absolute;
+    left: calc(10% - 5px);
+    top: 4px;
+    bottom: 2px;
+    height: 60px;
+}
+.messg form{
+	position: relative;
+}
+::-webkit-input-placeholder { /* Edge */
+	color:#797979;
+  }
+  .poffermail{
+	  font-size: 25px;
+	  font-weight: bold;
+	  color: #fff
+  }
+  .please {
+    color: #ccc;
+    margin-top: 15px;
 }
 /* //////////////////////////////////////////////end section 8///////////////////////// */
+/* /////////////////// footer ///////////////////////////////*/
+footer {
+    background-image: url(../img/Assest18.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
 
+.copyright.alignecenter {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.copyright.alignecenter a {
+    color: #36417e;
+}
+footer .logovisimg p {
+    color: #36417e;
+    font-size: 18px;
+    line-height: 23px;
+}
+footer .logovisimg{
+	position: relative
+}
+.f-title {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer ul li a {
+    font-size: 16px;
+    color: #000;
+}
+footer ul li a:hover{
+    color: #000;
+}
+.f-title p{
+	font-size: 16px
+}
+/* /////////////////// endfooter /////////////////////////////*/
 
 /****************** loader***************************/
 
@@ -2560,6 +2811,7 @@ section#eight-service {
 	}
 	.elementor-element.elementor-element-ce69487 .feature-eight-section .eight-feature-content {
 		padding: 20px 0px 0px 0px;
+		
 	}
 	.feature-eight-section .eight-feature-box {
 		margin-bottom: 20px;
@@ -2598,8 +2850,34 @@ section#eight-service {
 		width: 39px;
 		height: 91px;
 	}
-}
+	/*/////////////////// sec 4 //////////////////*/
+	.eg-fun-fact-section .fun-fact-counter:after {
+		right: 172px;
+	}
 
+	/*///////////////////////sec8//////////////////////*/
+	.messg .editnone {
+		display: none;
+	}
+	.messg {
+		
+		padding: 100px 0;
+	}
+	.please {
+		margin-top: 10px;
+	}
+	.messg input {
+		width: 100%;
+		padding: 17px 12px 17px 160px;
+	}
+
+	.messg button {
+		left: calc(10% - 78px);
+	}
+	.messg button{
+		height: 50px;
+	}
+}
 @media only screen and (min-width: 600px) and (max-width: 991) {}
 
 @media (max-width: 767px) {
@@ -2983,6 +3261,57 @@ section#eight-service {
 	.ei-appdownload-section .app-down-btn a {
 		margin-bottom: 15px;
 	}
+	/* /////////////////// sec4 //////////////////////// */
+	.eg-fun-fact-section .fun-fact-counter:after {
+	
+		right: 194px;
+	}
+	.eg-fun-fact-section .fun-fact-counter .eg-counter-number p {
+		font-size: 20px;
+		height: 50px;
+	}
+	.eg-fun-fact-section .fun-fact-counter .eg-counter-number .odometer {
+		font-size: 35px;
+	}
+	.eg-fun-fact-section .fun-fact-counter .eg-counter-number {
+		padding: 15px 0px 15px;
+	}
+	.eg-fun-fact-section .fun-fact-counter:before {
+		top: 144px;
+	}
+
+.eg-fun-fact-section .fun-fact-counter:after {
+	height: 272px;
+}
+	/* ///////////////// end sec4 ////////////////////// */
+	/* //////////////////// sec8 ////////////////////////*/
+	.messg button {
+		left: calc(10% - 43px);
+	}
+	/* /////////////////end sec8 ////////////////////////*/
+	/*//////////////////  footer ///////////////////////*/
+	.f-title {
+		margin-bottom: 5px;
+		font-size: 16px;
+	}
+	footer .logovisimg p {
+		font-size: 14px;
+		line-height: 23px;
+	}
+	footer ul li a {
+		font-size: 14px;
+		color: #000;
+	}
+	footer p a {
+		font-size: 14px;
+		color: #000;
+	}
+	h3 .f-title {
+		margin-bottom: 5px;
+		font-size: 16px;
+		margin-top: 12px;
+	}
+
 }
 
 @media (max-width: 700px) {}
@@ -3032,9 +3361,23 @@ section#eight-service {
 	.eight-section-title h2 {
 		font-size: 19px;
 	}
+	
 }
-
-
+@media (max-width: 420px) {
+	/*/////////////////// sec4 ////////////////*/
+	.eg-fun-fact-section .fun-fact-counter:after {
+		right: 172px;
+	}
+}
+@media (max-width: 320px) {
+	/*/////////////////// sec4 ////////////////*/
+	.eg-fun-fact-section .fun-fact-counter:after {
+		right: 145px;
+	}
+	.messg button {
+		left: calc(10% - 35px);
+	}
+}
 /*---------------------------------------------------- */
 
 
@@ -3230,6 +3573,71 @@ section#eight-service {
 	}
 }
 
+@media only screen and (min-width:768px) and (max-width:992px){
+	.cascade-slider_container {
+		position: relative;
+		height: 400px;
+		width: auto;
+		margin: 0 auto;
+	}
+		.cascade-slider_item.now img {
+		height: 230px;
+	}
+		.cascade-slider_item.next img , .cascade-slider_item.prev img {
+		height: 230px;
+	}
+		.list.list-view-filter .product-detalis{
+			float: left;
+		height: 400px;
+		vertical-align: middle;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		}
+		.list.list-view-filter .plus-minus-product{
+				height: 400px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		}
+		.list.grid-view-filter .product-detalis{
+			float: none;
+		height: 400px;
+		vertical-align: middle;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+			margin-left: 25px
+		}
+		.list.grid-view-filter .slider {
+		width: 49%;
+		float: right;
+	}
+		
+	}
+	
+/* 	
+	@media only screen and (min-width:320px) and (max-width:599px){
+		.list.list-view-filter .product-detalis{
+		
+		
+		width:100% !important;
+		margin: auto;
+	}
+		.list.list-view-filter .plus-minus-product{
+	
+		width:100% !important;
+		margin: auto;
+	}
+		img.logo.pro-logo{
+		width: 158px;
+	}
+		.list.grid-view-filter .slider{
+		width:100% !important;
+		margin: auto;
+	}
+	} */
 @media screen and (max-width: 767px) {
 	.ei-screenshots-section .ei-screen-mobile-image {
 		width: 370px;
@@ -3278,6 +3686,24 @@ section#eight-service {
 	}
 	.ei-newslatter-section .ei-newslatter-contnet {
 		margin-left: 0px;
+	}
+	.list.list-view-filter .product-detalis{
+		
+		
+		width:100% !important;
+		margin: auto;
+	}
+		.list.list-view-filter .plus-minus-product{
+	
+		width:100% !important;
+		margin: auto;
+	}
+		img.logo.pro-logo{
+		width: 158px;
+	}
+		.list.grid-view-filter .slider{
+		width:100% !important;
+		margin: auto;
 	}
 }
 
