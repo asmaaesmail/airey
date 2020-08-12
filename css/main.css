@@ -2877,6 +2877,13 @@ footer ul li a:hover{
 	.messg button{
 		height: 50px;
 	}
+	.projects .row{
+		flex-direction: column
+	}
+	.projects {
+		
+		background-size: contain;
+	}
 }
 @media only screen and (min-width: 600px) and (max-width: 991) {}
 
@@ -3153,6 +3160,7 @@ footer ul li a:hover{
 	.logovisimg p {
 		font-size: 12px;
 		margin-right: 4px;
+		display: none
 	}
 	p.welcome,
 	.welcomeRagwa {
