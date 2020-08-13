@@ -2917,7 +2917,7 @@ footer ul li a:hover{
 @media only screen and (min-width: 600px) and (max-width: 991) {}
 @media (max-width: 768px) {
 	.messg button {
-		left: calc(10% - 48px);
+		left: calc(10% - 78px);
 	}
 }
 @media (max-width: 767px) {
@@ -3329,6 +3329,17 @@ footer ul li a:hover{
 	.messg button {
 		left: calc(10% - 43px);
 	}
+	.projects {
+		padding: 20px 0;
+	}
+
+.fleximgp div p:nth-child(2) {
+    font-size: 14px;
+}
+.feature-eight-section .eight-feature-box .feature-icon8 {
+   
+	margin-bottom: 22px;
+}
 	/* /////////////////end sec8 ////////////////////////*/
 	/*//////////////////  footer ///////////////////////*/
 	.f-title {
@@ -3357,7 +3368,11 @@ footer ul li a:hover{
 
 @media (max-width: 700px) {}
 
-@media (max-width: 599px) {}
+@media (max-width: 599px) {
+	.elementor-element.elementor-element-b351f94 {
+		padding: 30px 0px 30px 0px;
+	}
+}
 
 @media (max-width: 480px) {
 	/**********nav bar****/
