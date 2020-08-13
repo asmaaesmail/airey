@@ -1877,7 +1877,7 @@ span.eg-title-tag {
 
 .elementor-element.elementor-element-b351f94:not(.elementor-motion-effects-element-type-background),
 .elementor-40 .elementor-element.elementor-element-b351f94>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-	background-image: url(http://www.themexriver-demo.website/appshowcase/wp-content/uploads/2020/06/f-shape1.png);
+	background-image: url("../img/Assest12.png");
 	background-position: 100% 178px;
 	background-repeat: no-repeat;
 }
@@ -1933,21 +1933,8 @@ span.eg-title-tag {
 
 
 /***************************************************************************************************/
-
-
 /**********section 3*******************************/
-
-
 /****************************************************************************************************/
-
-
-/*---------------------------------------------------- */
-
-
-/*Service area*/
-
-
-/*----------------------------------------------------*/
 
 .ei-service-icon-text .ei-service-icon i {
 	font-size: 55px;
@@ -2346,16 +2333,50 @@ section#eight-service {
 	}
 /* ///////////////end section 4////////////////////////////*/
 
-/*//////////////////////////// section 6 /////////////////////////*/
+/* /////////////// section 5////////////////////////////*/
+.contentflximg .fleximgp {
+    padding: 3px 8px;
+    padding: 20px 50px 30px 20px;
+    -webkit-box-shadow: 0px 8px 9px 0px rgba(7, 7, 56, 0.15);
+    box-shadow: 0px 8px 9px 0px rgba(7, 7, 56, 0.15);
+    background-color: #fff;
+    margin: 13px 0;
+}
+.contentflximg{
+	max-height: 320px;
+	overflow-y: scroll;
+	direction: ltr
+}
+.contflxrtl {
+    direction: rtl;
+    margin-right: 6px;
+}
+.contentflximg::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  .contentflximg ::-webkit-scrollbar-thumb {
+	background: red; 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .contentflximg ::-webkit-scrollbar-thumb:hover {
+	background: #b30000; 
+  }
+  .img100{
+	width: 65%
+}
+.projects.howUse{
+	background-image: url("../img/Assest12.png");
+	background-position: right;
+	background-size: 54% 138%;	
+}
+/*///////////////////////// end section 5 ///////////////////////*/
 
-
-/*---------------------------------------------------- */
-
-
-/*App Download area*/
-
-
-/*----------------------------------------------------*/
+/*/////////////////////////// section 6 /////////////////////////*/
 .ei-appdownload-section {
     padding: 50px 0px 50px 0;
     z-index: 1;
@@ -2412,8 +2433,8 @@ section#eight-service {
 
 .ei-appdownload-section .ei-download-btn a:before {
 	top: -2px;
-	right: -25px;
-	content: '\f30b';
+	left: -25px;
+	content: '\f060';
 	font-size: 20px;
 	font-weight: 900;
 	position: absolute;
@@ -2424,7 +2445,7 @@ section#eight-service {
 }
 
 .ei-appdownload-section .ei-download-btn a:hover:before {
-	right: -35px;
+	left: -35px;
 }
 
 .ei-appdownload-section .ei-download-btn a:hover:after {
@@ -2557,7 +2578,7 @@ font-weight: bold
    
 }
 img {
-    background-color: inherit;
+    background-color: unset;
     padding: 5px;
 }
 
@@ -2854,15 +2875,23 @@ footer ul li a:hover{
 	.eg-fun-fact-section .fun-fact-counter:after {
 		right: 172px;
 	}
-
-	/*///////////////////////sec8//////////////////////*/
-	.messg .editnone {
+	.editnone {
 		display: none;
+	}
+/* ///////// section 5////////////// */
+	.img100{
+		width: 100%
 	}
 	.messg {
 		
 		padding: 100px 0;
 	}
+	.projects.howUse {
+		background-image: none;
+	}
+
+
+
 	.please {
 		margin-top: 10px;
 	}
@@ -2886,7 +2915,11 @@ footer ul li a:hover{
 	}
 }
 @media only screen and (min-width: 600px) and (max-width: 991) {}
-
+@media (max-width: 768px) {
+	.messg button {
+		left: calc(10% - 48px);
+	}
+}
 @media (max-width: 767px) {
 	/****************************navbar menu**************************/
 	.hide-xxl,
@@ -3384,6 +3417,12 @@ footer ul li a:hover{
 	}
 	.messg button {
 		left: calc(10% - 35px);
+	}
+	@media (max-width: 290px) {
+		
+		.messg button {
+			left: calc(10% - 32px);
+		}
 	}
 }
 /*---------------------------------------------------- */
