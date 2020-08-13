@@ -4,6 +4,24 @@
  * Copyright 2019, Vision Design - graphic zoo
  * Free to use under the MIT license.
 */
+
+$(document).ready(function () {
+  var scroltopbtn = $("#scrollUp");
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			scroltopbtn.fadeIn();
+           
+		} else {
+			$(scroltopbtn).fadeOut();
+		}
+     
+	});
+	scroltopbtn.on('click', function () {
+		$('html , body').animate({
+			scrollTop: 0
+		}, 600);
+	});
+});
 jQuery(document).ready(function($) {
   //loader
   $(".loader").fadeOut(1000);
