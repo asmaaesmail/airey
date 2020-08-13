@@ -746,7 +746,9 @@ nav.fixed .right-menu {
 	width: 50px;
 	top: 0
 }
-
+img.logovisable.imgnav{
+	width: 210px
+}
 .logovisimg p {
 	margin-bottom: 0;
 	color: #fff;
@@ -2357,9 +2359,9 @@ section#eight-service {
 	width: 65%
 }
 .projects.howUse{
-	background-image: url("../img/Assest12.png");
+	background-image: url("../img/Ellipse_4.png");
 	background-position: right;
-	background-size: 54% 138%;	
+	background-size: 52% 100%;	
 }
 /*///////////////////////// end section 5 ///////////////////////*/
 
@@ -2513,7 +2515,7 @@ section#eight-service {
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     width: 301px;
-    z-index: 99;
+    z-index: 9;
     border-radius: 40px;
     height: 427px;
     width: 221px;
@@ -2582,12 +2584,12 @@ font-weight: bold
 }
 .cascade-slider_arrow-left {
     left: 41%;
-    color: #1c7491;
+    color: #36417e;
     font-size: 27px
 }
 .cascade-slider_arrow-right {
     right: 41%;
-    color:  #1c7491;
+    color:  #36417e;
     font-size: 27px
 }
 .cascade-slider_arrow {
