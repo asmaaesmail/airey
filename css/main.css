@@ -2557,10 +2557,11 @@ font-weight: bold
     width: auto;
     margin: 0 auto;
 }
-.cascade-slider_item.now  {
-	overflow: hidden;
-    height: 402px;
+.cascade-slider_item.now {
+    overflow: hidden;
+    height: 396px;
     width: 205px;
+    border-radius: 24px;
 }
 .cascade-slider_item.now img {
 	height: 100%;
